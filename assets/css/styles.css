@@ -23,6 +23,22 @@ body {
 /* NAVBAR */
 header.nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  z-index: 10;
+  border-bottom: none;
+  flex-wrap: wrap;
+}
+
+/* NAVBAR original
+header.nav {
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 0.8rem 3rem;
@@ -34,6 +50,7 @@ header.nav {
   border-bottom: 1px solid #eee;
   flex-wrap: wrap;
 }
+*/
 
 header.nav .logo {
   margin-bottom: 0rem;
@@ -98,6 +115,7 @@ nav.nav-links a {
   position: relative;
   height: 100vh;
   overflow: hidden;
+  margin-top: 0;
 }
 
 .hero img {

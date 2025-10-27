@@ -208,7 +208,7 @@ nav.nav-links a {
 }
 
 .about-text {
-  flex: 0 0 550px;
+  flex: 0 0 500px;
   font-family: "Inter";
   font-size: 1rem;
   line-height: 1.8;
@@ -220,14 +220,14 @@ nav.nav-links a {
   justify-content: center;
   align-items: center;
   padding: 5rem 2rem;
-  max-width: 1000px;
+  max-width: 500px;
   margin: 0 auto;
   gap: 2rem;
 }
 */
 
 .about-content img {
-  max-width: 500px;
+  max-width: 600px;
   width: 100%;
   padding: 5rem 2rem;
   height: auto;

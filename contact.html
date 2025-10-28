@@ -8,6 +8,50 @@
   <script src="assets/js/script.js" defer></script>
 </head>
 <body>
+
+      <!-- HEADER -->
+  <header class="nav">
+    <div class="logo" id="logo-container">
+      <img src="assets/images/logo.png" alt="LIMINAL Logo" class="default-logo" id="logo">
+      <img src="assets/images/logo-alt.png" alt="Alt Logo" class="alt-logo">
+    </div>
+
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav class="nav-links" id="nav-links">
+      <div class="pages">
+        <a href="index.html" class="active">Home</a>
+        <a href="projects.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="hamburger-footer">
+        <div class="footer-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2 4h12v8H2z"/>
+            <path d="M2 4l6 5 6-5"/>
+          </svg>
+          <span>email@example.com</span>
+        </div>
+                <div class="footer-item">
+  <!-- add a class and a viewBox so it scales correctly -->
+  <svg class="location-icon" xmlns="http://www.w3.org/2000/svg"
+       viewBox="0 0 20 20" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 2a6 6 0 0 0-6 6c0 4 6 10 6 10s6-6 6-10a6 6 0 0 0-6-6z"/>
+    <circle cx="8" cy="8" r="2"/>
+  </svg>
+  <span>Oklahoma/Texas Area</span>
+</div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- old header 
   <header class="nav">
     <div class="logo">
       <img src="assets/images/logo.png" alt="LIMINAL Logo">
@@ -24,8 +68,9 @@
       <a href="contact.html" class="active">Contact</a>
     </nav>
   </header>
-
+-->
   <section class="contact">
+    <div class="contact-container">
     <h1>Let’s Connect</h1>
     <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
       <label for="name">Name</label>
@@ -37,8 +82,16 @@
       <label for="message">Message</label>
       <textarea id="message" name="message" rows="6" required></textarea>
 
-      <button type="submit">Send Message</button>
+      <button type="submit" class="view-portfolio-btn">
+        Send Message
+        <span class="arrow-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 9L9 3M3 3h6v6"/>
+          </svg>
+        </span>
+      </button>
     </form>
+    </div>
   </section>
 
   <footer>
